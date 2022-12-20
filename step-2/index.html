@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Multi-step Form</title>
+    <style>
+      .attribution {
+        font-size: 13px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="../assets/images/bg-sidebar-mobile.svg" alt="top" />
+        <div class="steps">
+          <div>1</div>
+          <div id="selected-step">2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
+      </header>
+
+      <section id="two">
+        <p class="up">Select your plan</p>
+        <p class="down">You have the option of monthly or yearly billing.</p>
+        <div class="mid">
+          <div class="a">
+            <img src="../assets/images/icon-arcade.svg" alt="arcade" />
+            <div>
+              <p class="up" id="new-a">Arcade</p>
+              <p class="down" id="new-b">$9/mo</p>
+              <p class="down hide" id="new-bb">$90/yr</p>
+              <p class="up hide" id="new-c">2 months free</p>
+            </div>
+          </div>
+          <div class="b">
+            <img src="../assets/images/icon-advanced.svg" alt="advanced" />
+            <div>
+              <p class="up" id="new-a">Advanced</p>
+              <p class="down" id="new-b">$12/mo</p>
+              <p class="down hide" id="new-bb">$120/yr</p>
+              <p class="up hide" id="new-c">2 months free</p>
+            </div>
+          </div>
+          <div class="c">
+            <img src="../assets/images/icon-pro.svg" alt="pro" />
+            <div>
+              <p class="up" id="new-a">Pro</p>
+              <p class="down" id="new-b">$15/mo</p>
+              <p class="down hide" id="new-bb">$150/yr</p>
+              <p class="up hide" id="new-c">2 months free</p>
+            </div>
+          </div>
+        </div>
+        <div class="end">
+          <p>Monthly</p>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <p>Yearly</p>
+        </div>
+      </section>
+
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a
+            class="clack"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a class="clack" href="http://twitter.com/victoribironke_"
+            >Victor Ibironke</a
+          >.
+        </div>
+        <div class="footer">
+          <a href="../index.html">Go Back</a>
+          <a href="../step-3/index.html">Next Step</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

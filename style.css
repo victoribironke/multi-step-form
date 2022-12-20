@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  background: hsl(229, 24%, 87%);
+}
+
+main {
+  width: 375px;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+header {
+  width: 375px;
+  height: auto;
+  z-index: 1;
+}
+
+header,
+header div,
+footer,
+.footer,
+form,
+.last,
+a:not(.clack),
+#three > div,
+main,
+#done {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.steps {
+  width: 55%;
+  height: auto;
+  justify-content: space-between;
+  position: absolute;
+  top: 25px;
+}
+
+.steps div {
+  font-weight: 700;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 17px;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+}
+
+section {
+  width: 93.33%;
+  height: auto;
+  border-radius: 10px;
+  background: white;
+  padding: 30px 20px 30px;
+  z-index: 2;
+  position: relative;
+  bottom: 70px;
+}
+
+.up {
+  color: hsl(213, 96%, 18%);
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.down {
+  color: hsl(213, 11%, 63%);
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  color: hsl(213, 96%, 18%);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  margin-top: 4px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 700;
+  font-size: 15px;
+  border: 0.5px solid hsl(213, 11%, 63%);
+}
+
+form input:focus {
+  border-color: hsl(213, 96%, 18%);
+}
+
+footer {
+  width: 375px;
+  height: auto;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+a:not(.clack) {
+  width: 35%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  background: hsl(213, 96%, 18%);
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.click {
+  position: relative;
+  left: 220px;
+}
+
+#hide {
+  opacity: 0;
+}
+
+.mid > div:hover,
+#three > div:hover,
+#selected-plan {
+  border: 1px solid hsl(213, 96%, 18%);
+  background: hsl(231, 100%, 95%);
+}
+
+#selected-step {
+  background: hsl(228, 100%, 84%);
+  color: hsl(213, 96%, 18%);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+#frequency {
+  color: hsl(213, 96%, 18%);
+}

@@ -1,0 +1,150 @@
+.mid {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid > div {
+  width: 100%;
+  height: auto;
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 15px 0px 15px 20px;
+  border: 1px solid hsl(213, 11%, 63%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.mid > div img {
+  width: 13%;
+  aspect-ratio: 1/1;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.mid > div div {
+  flex-direction: column;
+}
+
+.mid > div div p {
+  margin: 0;
+}
+
+#new-a,
+#new-b,
+#new-bb {
+  align-self: flex-start;
+  margin: 0;
+}
+
+#new-a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#new-b,
+#new-bb {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+#new-c {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  margin-top: 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(213, 96%, 18%);
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(213, 96%, 18%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(213, 96%, 18%);
+}
+
+input:checked + .slider:before {
+  transform: translateX(39px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.end {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  background: hsl(231, 100%, 94%);
+}
+
+.end p {
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(213, 11%, 63%);
+}
+
+a:not(.clack):first-child {
+  background: inherit;
+  color: hsl(213, 11%, 63%);
+}
+
+a:not(.clack):first-child:hover {
+  color: hsl(213, 96%, 18%);
+}
+
+a:not(.clack):last-child {
+  background: hsl(213, 96%, 18%);
+}
+
+a:not(.clack):last-child:hover {
+  background: hsl(243, 100%, 67%);
+}

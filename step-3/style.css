@@ -1,0 +1,57 @@
+.three > div {
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px 10px;
+  cursor: pointer;
+  border: 1px solid hsl(213, 11%, 63%);
+}
+
+#three > div input {
+  scale: 1.3;
+  margin: 0 15px 0 5px;
+  cursor: pointer;
+}
+
+#three > div div {
+  width: 70%;
+  height: auto;
+}
+
+#three > div div p {
+  margin: 0;
+}
+
+#three > div div p:first-child {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#three > div div p:last-child {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 13px;
+  color: hsl(243, 100%, 62%);
+  font-weight: 700;
+}
+
+a:not(.clack):first-child {
+  background: inherit;
+  color: hsl(213, 11%, 63%);
+}
+
+a:not(.clack):first-child:hover {
+  color: hsl(213, 96%, 18%);
+}
+
+a:not(.clack):last-child {
+  background: hsl(213, 96%, 18%);
+}
+
+a:not(.clack):last-child:hover {
+  background: hsl(243, 100%, 67%);
+}

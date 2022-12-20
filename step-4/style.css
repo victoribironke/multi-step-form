@@ -1,0 +1,119 @@
+.first {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: hsl(213, 11%, 93%);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.first div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  color: hsl(213, 11%, 63%);
+}
+
+#to {
+  justify-content: space-between;
+}
+
+#to div {
+  align-items: flex-start;
+  width: 50%;
+  align-self: flex-start;
+  flex-direction: column;
+  margin: 0;
+}
+
+#to a {
+  color: hsl(213, 11%, 63%);
+}
+
+#hide {
+  display: none;
+}
+
+.first div p:first-child {
+  color: hsl(213, 11%, 63%);
+}
+
+.first div p:last-child {
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+hr {
+  background: hsl(213, 11%, 63%);
+  width: 100%;
+  height: 0.2px;
+  margin: 5px 0;
+}
+
+.last {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.last p:first-child {
+  color: hsl(213, 11%, 63%);
+  font-size: 15px;
+}
+
+.last p:last-child,
+#to p {
+  color: hsl(213, 96%, 29%);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+button {
+  width: 35%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  background: hsl(213, 96%, 18%);
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: hsl(243, 100%, 67%);
+}
+
+a:not(.clack):first-child {
+  background: inherit;
+  color: hsl(213, 11%, 63%);
+}
+
+a:not(.clack):first-child:hover {
+  color: hsl(213, 96%, 18%);
+}
+
+#done {
+  flex-direction: column;
+  padding: 60px 25px;
+}
+
+#done img {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+#done .down {
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+}
