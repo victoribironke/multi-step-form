@@ -11,7 +11,7 @@
 
 ### Links
 
-- Live Site URL: [Multi-step Form](https://victoribironke.github.io/advice-generator-app/)
+- Live Site URL: [Multi-step Form](https://victoribironke.github.io/multi-step-form/)
 
 ## My process
 
